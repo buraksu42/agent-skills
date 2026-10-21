@@ -1,0 +1,13 @@
+# Tüm makinelerde kurulu ve güncel tutulacak skill'ler.
+# Satır biçimi:  <repo>  [skill-adı]  [repo içindeki klasör]
+#   repo        : owner/ad (public, https ile çekilir) ya da tam git URL'si
+#                 (private repolar için git@github.com:owner/ad.git)
+#   skill-adı   : boşsa repo adı kullanılır
+#   klasör      : SKILL.md repo kökünde değilse, bulunduğu klasör
+# Satır eklemek = her makineye kurulum. Satır silmek = her makineden kaldırma.
+
+buraksu42/skill-gateway
+buraksu42/business-idea-stress-tester
+buraksu42/business-strategy-stress-tester
+git@github.com:buraksu42/vibe-manager-personal.git
+buraksu42/saas-motion-kit  saas-motion-video  .claude/skills/saas-motion-video
