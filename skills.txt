@@ -55,3 +55,6 @@ trailofbits/skills  sharp-edges                plugins/sharp-edges/skills/sharp-
 trailofbits/skills  supply-chain-risk-auditor  plugins/supply-chain-risk-auditor/skills/supply-chain-risk-auditor
 trailofbits/skills  property-based-testing     plugins/property-based-testing/skills/property-based-testing
 trailofbits/skills  post-patch-validation      plugins/post-patch-validation/skills/post-patch-validation
+
+# --- Skill yönetimi ("bu skill'i ekle")
+buraksu42/agent-skills  skill-ekle  skill/skill-ekle

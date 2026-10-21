@@ -6,6 +6,11 @@ Kendi skill repolarımı tüm makinelerde (Claude, Codex, OpenCode…) kurulu ve
 - **Skill güncellemek:** skill'in kendi reposuna push et.
 - Her makine saatte bir `sync.sh` çalıştırır (macOS: launchd, Linux: cron); değişiklik en geç bir saat içinde gelir. Acilse makinede `~/.agents/agent-skills/sync.sh`'i elle çalıştır. Claude yeni oturumda görür.
 
+## Skill eklemek: `skill-ekle`
+Herhangi bir makinede Claude, Codex ya da Antigravity'ye "bu skill'i ekle: <GitHub linki>" de. `skill-ekle` skill'i repodaki skill'leri listeler, gerekirse hangisini istediğini sorar, manifest'e ekleyip push eder ve sync'i hemen çalıştırır. Diğer makineler en geç bir saatte alır. "şu skill'i kaldır" da çalışır.
+
+Elle: `~/.agents/agent-skills/skill-add.sh list | list-skills <kaynak> | add <kaynak> [ad=klasör …] | remove <ad>`
+
 ## Bir makineyi bağlamak
 ```bash
 curl -fsSL https://raw.githubusercontent.com/buraksu42/agent-skills/main/install.sh | bash
