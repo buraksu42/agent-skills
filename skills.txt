@@ -5,9 +5,53 @@
 #   skill-adı   : boşsa repo adı kullanılır
 #   klasör      : SKILL.md repo kökünde değilse, bulunduğu klasör
 # Satır eklemek = her makineye kurulum. Satır silmek = her makineden kaldırma.
+# Her skill Claude Code, Codex, OpenCode ve (kuruluysa) Antigravity'ye bağlanır.
 
+# --- Kendi skill'lerim
 buraksu42/skill-gateway
 buraksu42/business-idea-stress-tester
 buraksu42/business-strategy-stress-tester
 git@github.com:buraksu42/vibe-manager-personal.git
 buraksu42/saas-motion-kit  saas-motion-video  .claude/skills/saas-motion-video
+
+# --- Tasarım / animasyon (Emil Kowalski)
+emilkowalski/skills  animate                       skills/animate
+emilkowalski/skills  animate-expo                  skills/animate-expo
+emilkowalski/skills  animation-vocabulary          skills/animation-vocabulary
+emilkowalski/skills  apple-design                  skills/apple-design
+emilkowalski/skills  ask-sonner                    skills/ask-sonner
+emilkowalski/skills  emil-design-eng               skills/emil-design-eng
+emilkowalski/skills  find-animation-opportunities  skills/find-animation-opportunities
+emilkowalski/skills  improve-animations            skills/improve-animations
+emilkowalski/skills  mobile-native                 skills/mobile-native
+emilkowalski/skills  pick-ui-library               skills/pick-ui-library
+emilkowalski/skills  prototype                     skills/prototype
+emilkowalski/skills  review-animations             skills/review-animations
+emilkowalski/skills  write-swift                   skills/write-swift
+
+# --- Tasarım kalitesi
+pbakaus/impeccable  impeccable  .agents/skills/impeccable
+
+# --- Three.js
+CloudAI-X/threejs-skills  threejs-animation       skills/threejs-animation
+CloudAI-X/threejs-skills  threejs-fundamentals    skills/threejs-fundamentals
+CloudAI-X/threejs-skills  threejs-geometry        skills/threejs-geometry
+CloudAI-X/threejs-skills  threejs-interaction     skills/threejs-interaction
+CloudAI-X/threejs-skills  threejs-lighting        skills/threejs-lighting
+CloudAI-X/threejs-skills  threejs-loaders         skills/threejs-loaders
+CloudAI-X/threejs-skills  threejs-materials       skills/threejs-materials
+CloudAI-X/threejs-skills  threejs-postprocessing  skills/threejs-postprocessing
+CloudAI-X/threejs-skills  threejs-shaders         skills/threejs-shaders
+CloudAI-X/threejs-skills  threejs-textures        skills/threejs-textures
+
+# --- Güvenlik / test (Trail of Bits)
+trailofbits/skills  codeql                     plugins/static-analysis/skills/codeql
+trailofbits/skills  semgrep                    plugins/static-analysis/skills/semgrep
+trailofbits/skills  sarif-parsing              plugins/static-analysis/skills/sarif-parsing
+trailofbits/skills  variant-analysis           plugins/variant-analysis/skills/variant-analysis
+trailofbits/skills  differential-review        plugins/differential-review/skills/differential-review
+trailofbits/skills  fp-check                   plugins/fp-check/skills/fp-check
+trailofbits/skills  sharp-edges                plugins/sharp-edges/skills/sharp-edges
+trailofbits/skills  supply-chain-risk-auditor  plugins/supply-chain-risk-auditor/skills/supply-chain-risk-auditor
+trailofbits/skills  property-based-testing     plugins/property-based-testing/skills/property-based-testing
+trailofbits/skills  post-patch-validation      plugins/post-patch-validation/skills/post-patch-validation

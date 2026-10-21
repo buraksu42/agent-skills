@@ -12,8 +12,10 @@ curl -fsSL https://raw.githubusercontent.com/buraksu42/agent-skills/main/install
 ```
 
 ## Düzen
-- Klonlar: `~/.agents/skill-repos/<repo>`
-- Linkler: `~/.agents/skills/<ad>` ve `~/.claude/skills/<ad>`
+- Klonlar: `~/.agents/skill-repos/<owner>/<repo>`
+- Kaynak: `~/.agents/skills/<ad>` (Codex ve OpenCode buradan okur)
+- Aynalar: `~/.claude/skills/<ad>` (Claude Code), `~/.gemini/config/skills/<ad>` (Antigravity IDE), `~/.gemini/antigravity-cli/skills/<ad>` (Antigravity CLI; `~/.gemini` varsa)
+- `~/.agents/skills`'e başka yoldan kurulan skill'ler (npx skills, elle) de Claude ve Antigravity'ye aynalanır. Hedefte aynı adla bir şey varsa dokunulmaz.
 - Önceden var olan düz kopyalar silinmez, `~/.agents/skills-backup/` altına taşınır.
 - Log: `~/.agents/skills-sync.log` — elle çalıştırma: `~/.agents/agent-skills/sync.sh`
 - Private repolar (`git@github.com:…`) için makinenin GitHub SSH erişimi olmalı; yoksa o skill atlanır, diğerleri çalışır.
