@@ -13,6 +13,7 @@ buraksu42/business-idea-stress-tester
 buraksu42/business-strategy-stress-tester
 git@github.com:buraksu42/vibe-manager-personal.git
 buraksu42/saas-motion-kit  saas-motion-video  .claude/skills/saas-motion-video
+git@github.com:buraksu42/vps-stack.git  yeni-proje  skills/yeni-proje
 
 # --- Tasarım / animasyon (Emil Kowalski)
 emilkowalski/skills  animate                       skills/animate
