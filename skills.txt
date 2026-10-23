@@ -59,3 +59,4 @@ trailofbits/skills  post-patch-validation      plugins/post-patch-validation/ski
 
 # --- Skill yönetimi ("bu skill'i ekle")
 buraksu42/agent-skills  skill-ekle  skill/skill-ekle
+morluto/rea  reverse-engineer-anything  .agents/skills/reverse-engineer-anything
