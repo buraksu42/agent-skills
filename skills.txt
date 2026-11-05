@@ -62,3 +62,12 @@ buraksu42/agent-skills  skill-ekle  skill/skill-ekle
 morluto/rea  reverse-engineer-anything  .agents/skills/reverse-engineer-anything
 buraksu42/cinecode  cinecode
 cloudflare/security-audit-skill  security-audit  skills/security-audit
+heygen-com/hyperframes  hyperframes  skills/hyperframes
+heygen-com/hyperframes  hyperframes-cli  skills/hyperframes-cli
+heygen-com/hyperframes  hyperframes-registry  skills/hyperframes-registry
+heygen-com/hyperframes  remotion-to-hyperframes  skills/remotion-to-hyperframes
+heygen-com/hyperframes  media-use  skills/media-use
+heygen-com/hyperframes  reverse-any-video  skills/reverse-any-video
+heygen-com/hyperframes  slideshow  skills/slideshow
+heygen-com/hyperframes  style-sampling  skills/style-sampling
+heygen-com/hyperframes  figma  skills/figma
