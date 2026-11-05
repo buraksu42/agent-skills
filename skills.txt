@@ -61,3 +61,4 @@ trailofbits/skills  post-patch-validation      plugins/post-patch-validation/ski
 buraksu42/agent-skills  skill-ekle  skill/skill-ekle
 morluto/rea  reverse-engineer-anything  .agents/skills/reverse-engineer-anything
 buraksu42/cinecode  cinecode
+cloudflare/security-audit-skill  security-audit  skills/security-audit
